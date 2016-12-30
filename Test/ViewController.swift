@@ -14,11 +14,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.getData()
-        
+        self.showData()
     }
 
     func getData() -> Void {
         print("Method called")
+    }
+    
+    func showData() -> Void {
+        print("Show data")
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
